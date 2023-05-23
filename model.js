@@ -3,6 +3,7 @@ const r1 = table.insert({
   name: 'Mexican Sabor',
   schedules: '10:00 - 22:00',
   category: 'Mexican',
+  type: 'Lunch',
   address: 'Cra. 34b #134-75',
   logo: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fpremium-vector%2Fmexican-food-restaurant-with-various-delicious-traditional-cuisine-flat-illustration_33726646.htm&psig=AOvVaw1kEvliuxCtDcoWxH_vfyjT&ust=1684289178189000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIj2maXg-P4CFQAAAAAdAAAAABAE',
   foods: [
@@ -33,6 +34,7 @@ const r2 = table.insert({
   name: 'Gratini Burguers',
   schedules: '15:00 - 23:00',
   category: 'Fast Food',
+  type: 'Fast Food',
   address: 'Calle 21 #56-42',
   logo: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fsp.depositphotos.com%2Fvector-images%2Fcreative-big-burger-logo.html&psig=AOvVaw0h-etmdsrwA53_3JmTURTj&ust=1684289775912000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNDr_8Hi-P4CFQAAAAAdAAAAABAJ',
   foods: [
@@ -63,6 +65,7 @@ const r3 = table.insert({
   name: 'NARUTO Sushi Bar',
   schedules: '12:00 - 20:00',
   category: 'Asian',
+  type: 'Lunch',
   address: 'Cra. 43 #32-21',
   logo: '',
   foods: [
@@ -92,34 +95,35 @@ const r3 = table.insert({
   ],
 });
 const r4 = table.insert({
-  name: 'NARUTO Sushi Bar',
-  schedules: '12:00 - 20:00',
-  category: 'Asian',
-  address: 'Cra. 43 #32-21',
+  name: 'My Dumpling',
+  schedules: '8:00 - 13:00',
+  category: 'Bakeries',
+  type: 'Breakfast',
+  address: 'Cra. 1 #12-35',
   logo: '',
   foods: [
     {
-      name: 'Naruto Sushi Rolls',
-      price: '22000',
-      amount: '12',
+      name: 'Eggs and Bacon',
+      price: '15000',
+      amount: '15',
       image:
         'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lowcarb-nocarb.com%2Fnaruto-rolls%2F&psig=AOvVaw38nI6ByPi6pFHNoJUmQhXN&ust=1684290434284000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIjk8Pvk-P4CFQAAAAAdAAAAABAE',
-      rate: '4.2',
+      rate: '4.4',
     },
     {
-      name: 'Naruti Sushi Lounge',
-      price: '32000',
+      name: 'Continental Breakfast',
+      price: '20000',
       amount: '15',
       image:
         'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tripadvisor.co%2FRestaurant_Review-g294480-d12241490-Reviews-Naruto_Sushi_Lounge-Panama_City_Panama_Province.html&psig=AOvVaw38nI6ByPi6pFHNoJUmQhXN&ust=1684290434284000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIjk8Pvk-P4CFQAAAAAdAAAAABAJ',
-      rate: '5.0',
+      rate: '4.2',
     },
     {
-      name: 'Sasuke Ramen',
-      price: '25000',
+      name: 'Coffee and Toast',
+      price: '15000',
       image:
         'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tripadvisor.com%2FRestaurant_Review-g186338-d6580474-Reviews-Sasuke_Ramen-London_England.html&psig=AOvVaw37uE0WhRgaXwKhscbD9pJ9&ust=1684290868219000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOjtkMvm-P4CFQAAAAAdAAAAABAE',
-      rate: '4.7',
+      rate: '4.5',
     },
   ],
 });
@@ -127,6 +131,7 @@ const r5 = table.insert({
   name: 'Pizza Royalty',
   schedules: '10:00 - 22:00',
   category: 'Italian',
+  type: 'Dinner',
   address: 'Calle 53b #14-23',
   logo: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Fitalian-restaurant-logo&psig=AOvVaw2UPb4unsCBfRiH9tCYznTQ&ust=1684291093246000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLj4obXn-P4CFQAAAAAdAAAAABAE',
   foods: [
@@ -157,6 +162,7 @@ const r6 = table.insert({
   name: 'Schumacher food',
   schedules: '11:00 - 19:00',
   category: 'German',
+  type: 'Dinner',
   address: 'Calle 2 #2b-64',
   logo: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Ffreebiesupply.com%2Flogos%2Fmichael-schumacher-logo%2F&psig=AOvVaw1Y_wb7i1jibeHU3H65TETe&ust=1684291609631000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJi1tqzp-P4CFQAAAAAdAAAAABAE',
   foods: [
