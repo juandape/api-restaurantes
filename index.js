@@ -11,11 +11,11 @@ const {
   handleDeleteRestaurant,
 } = require('./controller');
 
-app.use(cors());
 const app = express();
 const port = 8080;
 const date = Date();
 
+app.use(cors());
 app.use(express.json());
 app.use(bodyParser.json());
 morganBody(app);
