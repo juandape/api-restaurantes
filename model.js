@@ -189,6 +189,37 @@ const r6 = table.insert({
     },
   ],
 });
+const r7 = table.insert({
+  name: 'Mi buñuelo',
+  schedules: '6:00 - 19:00',
+  category: 'Bakeries',
+  foodtype: 'Breakfast',
+  address: 'Calle 1 #10-22',
+  logo: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Ffreebiesupply.com%2Flogos%2Fmichael-schumacher-logo%2F&psig=AOvVaw1Y_wb7i1jibeHU3H65TETe&ust=1684291609631000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJi1tqzp-P4CFQAAAAAdAAAAABAE',
+  foods: [
+    {
+      name: 'cacerola de huevo',
+      price: '1500',
+      image:
+        'https://www.google.com/url?sa=i&url=https%3A%2F%2Fastelus.com%2Fcomida-tipica-de-alemania-salchichas%2F&psig=AOvVaw1DjbPQLuLp_96GAkU4rZNW&ust=1684292079475000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKiq9Y3r-P4CFQAAAAAdAAAAABAE',
+      rate: '5.0',
+    },
+    {
+      name: 'buñuelos y empanadas',
+      price: '1000',
+      image:
+        'https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.edunclub.ru%2Frecipe%2F146166-german-dessert-of-berries-the-company-grutze%2F&psig=AOvVaw0hsIV_-9TT6sD3mKZL1MsG&ust=1684292222117000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLDfy9Hr-P4CFQAAAAAdAAAAABAJ',
+      rate: '4.9',
+    },
+    {
+      name: 'Arepa de huevo',
+      price: '12000',
+      image:
+        'https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCurrywurst&psig=AOvVaw15MCN7jc_bxqqPgUyMjvlJ&ust=1684292414114000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIDx3azs-P4CFQAAAAAdAAAAABAE',
+      rate: '4.5',
+    },
+  ],
+});
 
 function getAllRestaurants() {
   const records = table.findAll();
