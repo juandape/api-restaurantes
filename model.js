@@ -5,6 +5,7 @@ const r1 = table.insert({
   category: 'Mexican',
   foodtype: 'Lunch',
   address: 'Cra. 34b #134-75',
+  rating: "4.5",
   logo: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fpremium-vector%2Fmexican-food-restaurant-with-various-delicious-traditional-cuisine-flat-illustration_33726646.htm&psig=AOvVaw1kEvliuxCtDcoWxH_vfyjT&ust=1684289178189000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIj2maXg-P4CFQAAAAAdAAAAABAE',
   foods: [
     {
@@ -36,6 +37,7 @@ const r2 = table.insert({
   category: 'Fast Food',
   foodtype: 'Fast Food',
   address: 'Calle 21 #56-42',
+  rating: "4.8",
   logo: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fsp.depositphotos.com%2Fvector-images%2Fcreative-big-burger-logo.html&psig=AOvVaw0h-etmdsrwA53_3JmTURTj&ust=1684289775912000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNDr_8Hi-P4CFQAAAAAdAAAAABAJ',
   foods: [
     {
@@ -67,6 +69,7 @@ const r3 = table.insert({
   category: 'Asian',
   foodtype: 'Lunch',
   address: 'Cra. 43 #32-21',
+  rating: "4.5",
   logo: '',
   foods: [
     {
@@ -100,6 +103,7 @@ const r4 = table.insert({
   category: 'Bakeries',
   foodtype: 'Breakfast',
   address: 'Cra. 1 #12-35',
+  rating: "4.5",
   logo: '',
   foods: [
     {
@@ -133,6 +137,7 @@ const r5 = table.insert({
   category: 'Italian',
   foodtype: 'Dinner',
   address: 'Calle 53b #14-23',
+  rating: "4.7",
   logo: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Fitalian-restaurant-logo&psig=AOvVaw2UPb4unsCBfRiH9tCYznTQ&ust=1684291093246000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLj4obXn-P4CFQAAAAAdAAAAABAE',
   foods: [
     {
@@ -164,6 +169,7 @@ const r6 = table.insert({
   category: 'German',
   foodtype: 'Dinner',
   address: 'Calle 2 #2b-64',
+  rating: "4.1",
   logo: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Ffreebiesupply.com%2Flogos%2Fmichael-schumacher-logo%2F&psig=AOvVaw1Y_wb7i1jibeHU3H65TETe&ust=1684291609631000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJi1tqzp-P4CFQAAAAAdAAAAABAE',
   foods: [
     {
@@ -190,11 +196,12 @@ const r6 = table.insert({
   ],
 });
 const r7 = table.insert({
-  name: 'Mi buñuelo',
+  name: 'Mi Buñuelo',
   schedules: '6:00 - 19:00',
   category: 'Bakeries',
   foodtype: 'Breakfast',
   address: 'Calle 1 #10-22',
+  rating: "4.1",
   logo: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Ffreebiesupply.com%2Flogos%2Fmichael-schumacher-logo%2F&psig=AOvVaw1Y_wb7i1jibeHU3H65TETe&ust=1684291609631000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJi1tqzp-P4CFQAAAAAdAAAAABAE',
   foods: [
     {
