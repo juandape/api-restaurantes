@@ -44,7 +44,7 @@ const r2 = table.insert({
   logo: 'https://res.cloudinary.com/dqrtsgiru/image/upload/v1688086358/clod_restaurants/gratini_burguer_b5svdp.webp"',
   food: [
     {
-      id: 4,
+      id: 1,
       name: 'Big Burguer',
       price: '22000',
       image:
@@ -52,7 +52,7 @@ const r2 = table.insert({
       rate: '4.5',
     },
     {
-      id: 5,
+      id: 2,
       name: 'Royal Burguer',
       price: '32000',
       image:
@@ -60,7 +60,7 @@ const r2 = table.insert({
       rate: '4.7',
     },
     {
-      id: 6,
+      id: 3,
       name: 'Darker Burguer',
       price: '35000',
       image:
@@ -79,7 +79,7 @@ const r3 = table.insert({
   logo: 'https://res.cloudinary.com/dqrtsgiru/image/upload/v1688086359/clod_restaurants/naruto_logo_swgkbo.png',
   food: [
     {
-      id: 7,
+      id: 1,
       name: 'Naruto Sushi Rolls',
       price: '22000',
       amount: '12',
@@ -88,7 +88,7 @@ const r3 = table.insert({
       rate: '4.2',
     },
     {
-      id: 8,
+      id: 2,
       name: 'Naruti Sushi Lounge',
       price: '32000',
       amount: '15',
@@ -97,7 +97,7 @@ const r3 = table.insert({
       rate: '5.0',
     },
     {
-      id: 9,
+      id: 3,
       name: 'Sasuke Ramen',
       price: '25000',
       image:
@@ -116,7 +116,7 @@ const r4 = table.insert({
   logo: 'https://res.cloudinary.com/dqrtsgiru/image/upload/v1688137425/clod_restaurants/dumpling_logo_vzpkcb.png',
   food: [
     {
-      id: 10,
+      id: 1,
       name: 'Eggs and Bacon',
       price: '15000',
       amount: '15',
@@ -125,7 +125,7 @@ const r4 = table.insert({
       rate: '4.4',
     },
     {
-      id: 11,
+      id: 2,
       name: 'Continental Breakfast',
       price: '20000',
       amount: '15',
@@ -134,7 +134,7 @@ const r4 = table.insert({
       rate: '4.2',
     },
     {
-      id: 12,
+      id: 3,
       name: 'Coffee and Toast',
       price: '15000',
       image:
@@ -153,7 +153,7 @@ const r5 = table.insert({
   logo: 'https://res.cloudinary.com/dqrtsgiru/image/upload/v1688137302/clod_restaurants/pizza_logo_dqneft.png',
   food: [
     {
-      id: 13,
+      id: 1,
       name: 'Monza Pizza',
       price: '25500',
       image:
@@ -161,7 +161,7 @@ const r5 = table.insert({
       rate: '3.8',
     },
     {
-      id: 14,
+      id: 2,
       name: 'Ferrari Pasta',
       price: '45000',
       image:
@@ -169,7 +169,7 @@ const r5 = table.insert({
       rate: '4.0',
     },
     {
-      id: 15,
+      id: 3,
       name: 'Enzo Automovile lasagna',
       price: '45000',
       image:
@@ -188,7 +188,7 @@ const r6 = table.insert({
   logo: 'https://res.cloudinary.com/dqrtsgiru/image/upload/v1688086359/clod_restaurants/schu_logo_ajotaz.png',
   food: [
     {
-      id: 16,
+      id: 1,
       name: 'schnelle Würstchen',
       price: '7500',
       image:
@@ -196,7 +196,7 @@ const r6 = table.insert({
       rate: '5.0',
     },
     {
-      id: 17,
+      id: 2,
       name: 'Red ferrari Grutze',
       price: '37000',
       image:
@@ -204,7 +204,7 @@ const r6 = table.insert({
       rate: '4.9',
     },
     {
-      id: 18,
+      id: 3,
       name: 'Currywurst',
       price: '18000',
       image:
@@ -223,7 +223,7 @@ const r7 = table.insert({
   logo: 'https://res.cloudinary.com/dqrtsgiru/image/upload/v1688086357/clod_restaurants/bu%C3%B1_logo_t1kbzy.jpg',
   food: [
     {
-      id: 19,
+      id: 1,
       name: 'cacerola de huevo',
       price: '1500',
       image:
@@ -231,7 +231,7 @@ const r7 = table.insert({
       rate: '5.0',
     },
     {
-      id: 20,
+      id: 2,
       name: 'buñuelos y empanadas',
       price: '1000',
       image:
@@ -239,7 +239,7 @@ const r7 = table.insert({
       rate: '4.9',
     },
     {
-      id: 21,
+      id: 3,
       name: 'Arepa de huevo',
       price: '12000',
       image:
