@@ -7,8 +7,9 @@ const r1 = table.insert({
   address: 'Cra. 34b #134-75',
   rating: '4.5',
   logo: 'https://res.cloudinary.com/dqrtsgiru/image/upload/v1688086359/clod_restaurants/Mexican_sabor_logo_snjt7e.png',
-  foods: [
+  food: [
     {
+      id: 1,
       name: 'Enchiladas',
       price: '17000',
       image:
@@ -16,6 +17,7 @@ const r1 = table.insert({
       rate: '4.0',
     },
     {
+      id: 2,
       name: 'Tacos',
       price: '15000',
       image:
@@ -23,6 +25,7 @@ const r1 = table.insert({
       rate: '4.7',
     },
     {
+      id: 3,
       name: 'Elotes',
       price: '7500',
       image:
@@ -39,8 +42,9 @@ const r2 = table.insert({
   address: 'Calle 21 #56-42',
   rating: '4.8',
   logo: 'https://res.cloudinary.com/dqrtsgiru/image/upload/v1688086358/clod_restaurants/gratini_burguer_b5svdp.webp"',
-  foods: [
+  food: [
     {
+      id: 4,
       name: 'Big Burguer',
       price: '22000',
       image:
@@ -48,6 +52,7 @@ const r2 = table.insert({
       rate: '4.5',
     },
     {
+      id: 5,
       name: 'Royal Burguer',
       price: '32000',
       image:
@@ -55,6 +60,7 @@ const r2 = table.insert({
       rate: '4.7',
     },
     {
+      id: 6,
       name: 'Darker Burguer',
       price: '35000',
       image:
@@ -71,8 +77,9 @@ const r3 = table.insert({
   address: 'Cra. 43 #32-21',
   rating: '4.5',
   logo: 'https://res.cloudinary.com/dqrtsgiru/image/upload/v1688086359/clod_restaurants/naruto_logo_swgkbo.png',
-  foods: [
+  food: [
     {
+      id: 7,
       name: 'Naruto Sushi Rolls',
       price: '22000',
       amount: '12',
@@ -81,6 +88,7 @@ const r3 = table.insert({
       rate: '4.2',
     },
     {
+      id: 8,
       name: 'Naruti Sushi Lounge',
       price: '32000',
       amount: '15',
@@ -89,6 +97,7 @@ const r3 = table.insert({
       rate: '5.0',
     },
     {
+      id: 9,
       name: 'Sasuke Ramen',
       price: '25000',
       image:
@@ -105,8 +114,9 @@ const r4 = table.insert({
   address: 'Cra. 1 #12-35',
   rating: '4.5',
   logo: 'https://res.cloudinary.com/dqrtsgiru/image/upload/v1688137425/clod_restaurants/dumpling_logo_vzpkcb.png',
-  foods: [
+  food: [
     {
+      id: 10,
       name: 'Eggs and Bacon',
       price: '15000',
       amount: '15',
@@ -115,6 +125,7 @@ const r4 = table.insert({
       rate: '4.4',
     },
     {
+      id: 11,
       name: 'Continental Breakfast',
       price: '20000',
       amount: '15',
@@ -123,6 +134,7 @@ const r4 = table.insert({
       rate: '4.2',
     },
     {
+      id: 12,
       name: 'Coffee and Toast',
       price: '15000',
       image:
@@ -139,8 +151,9 @@ const r5 = table.insert({
   address: 'Calle 53b #14-23',
   rating: '4.7',
   logo: 'https://res.cloudinary.com/dqrtsgiru/image/upload/v1688137302/clod_restaurants/pizza_logo_dqneft.png',
-  foods: [
+  food: [
     {
+      id: 13,
       name: 'Monza Pizza',
       price: '25500',
       image:
@@ -148,6 +161,7 @@ const r5 = table.insert({
       rate: '3.8',
     },
     {
+      id: 14,
       name: 'Ferrari Pasta',
       price: '45000',
       image:
@@ -155,6 +169,7 @@ const r5 = table.insert({
       rate: '4.0',
     },
     {
+      id: 15,
       name: 'Enzo Automovile lasagna',
       price: '45000',
       image:
@@ -171,8 +186,9 @@ const r6 = table.insert({
   address: 'Calle 2 #2b-64',
   rating: '4.1',
   logo: 'https://res.cloudinary.com/dqrtsgiru/image/upload/v1688086359/clod_restaurants/schu_logo_ajotaz.png',
-  foods: [
+  food: [
     {
+      id: 16,
       name: 'schnelle Würstchen',
       price: '7500',
       image:
@@ -180,6 +196,7 @@ const r6 = table.insert({
       rate: '5.0',
     },
     {
+      id: 17,
       name: 'Red ferrari Grutze',
       price: '37000',
       image:
@@ -187,6 +204,7 @@ const r6 = table.insert({
       rate: '4.9',
     },
     {
+      id: 18,
       name: 'Currywurst',
       price: '18000',
       image:
@@ -203,8 +221,9 @@ const r7 = table.insert({
   address: 'Calle 1 #10-22',
   rating: '4.1',
   logo: 'https://res.cloudinary.com/dqrtsgiru/image/upload/v1688086357/clod_restaurants/bu%C3%B1_logo_t1kbzy.jpg',
-  foods: [
+  food: [
     {
+      id: 19,
       name: 'cacerola de huevo',
       price: '1500',
       image:
@@ -212,6 +231,7 @@ const r7 = table.insert({
       rate: '5.0',
     },
     {
+      id: 20,
       name: 'buñuelos y empanadas',
       price: '1000',
       image:
@@ -219,6 +239,7 @@ const r7 = table.insert({
       rate: '4.9',
     },
     {
+      id: 21,
       name: 'Arepa de huevo',
       price: '12000',
       image:
